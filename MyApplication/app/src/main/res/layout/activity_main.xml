@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="566dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/joinbtn"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:text="참여하기"
+            android:textColor="@color/black"
+            android:background="#FFC107"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/partybtn"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:text="모집하기"
+            android:textColor="@color/black"
+            android:background="#FFC107"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
